@@ -1,0 +1,37 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registreren</title>
+	<link rel="stylesheet" type="text/css" href="css/registerstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+<div id="container" style="width:100%">
+		<div id="reglist">	
+			<form action="verzend.php" method="post">
+			<h1>Registreren</h1>	
+
+			<br>
+				<select class="field" name="type">
+  					<option value="Docent">Docent</option>
+  					<option value="Ondernemer">Ondernemer</option>
+  					<option value="Student">Student</option>
+				</select>
+			<br>
+				<input class="field" type="text" name="Name" placeholder="Voornaam" required>
+			<br>
+				<input class="field" type="text" name="Name" placeholder="Achternaam" required>
+			<br>
+				<input class="field" type="date" name="Geboortedatum" required>
+			<br>
+				<input class="field" type="email" name="Email" placeholder="email@email.com" required>
+			<br>
+				<div class="regbutton">
+				<input class="btn btn-primary" type="button" value="Sign Up">
+				</div>
+			</form>
+		</div>
+</div>
+</body>
+</html>
