@@ -1,4 +1,7 @@
 $( "#register" ).click(function() {
   $("#main-content").load("register.html");
-  console.log("hoi");
+});
+
+$( "#log-in" ).click(function() {
+  $("#main-content").load("log-in.html");
 });
