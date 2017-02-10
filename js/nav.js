@@ -5,3 +5,7 @@ $( "#register" ).click(function() {
 $( "#log-in" ).click(function() {
   $("#main-content").load("log-in.html");
 });
+
+$( "#aboutus" ).click(function() {
+  $("#main-content").load("aboutus.html");
+});
